@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header{
+    /* background-color: yellow; */
+    height: 60px;
+}
+.seach{
+    margin: 10px 0 0 40px ;
+}
+.main{
+    background-color: #cd1817;
+}
+
+.info-menu{
+    background-color: #cd1817;
+    height: 60%;
+}
+.main-menu{
+    background-color: black;
+}
+
+.navbar-nav li{
+    margin-left: 15px;
+} 
+.navbar-nav li a{
+    color: white;
+    font-size: 14px;
+}
+a.list-menu:hover{
+    color: #00CC00;
+}
+.quangcao-banner{
+    background-image: url("https://images.fpt.shop/unsafe/fit-in/filters:quality(95):fill(transparent)/fptshop.com.vn/Uploads/Originals/2023/5/5/638188970598344988_desk-header-bg.png");
+}
+.img-quang-cao{
+    height: 100%;
+    width: 80%;
+}
+.large-menu{
+    border-radius: 30%;
+}
+.item-large-menu{
+    border: 1px solid;
+    height: 140px;
+    background-color: white;
+}
+.banner{
+    height: 100px;
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+
+.frame-time-sales{
+    margin: 0;
+    padding: 0;
+}
+.frame-time-sales-1{
+    background-color: yellow;
+    height: 80px;
+    border: 1px solid white;
+}
+.frame-time-sales-2{
+    background-color: gray;
+    height: 80px;
+    border: 1px solid white;
+}
+.product-big-sales{
+    background-color: white;
+    height: 400px;
+}
+.khuyen-mai-2{
+    margin: 0;
+    padding: 0; 
+}
+.khuyen-mai-hot{
+    background-color: white;
+    height: 400px;
+}
+.quang-cao-3{
+    margin: 0;
+    padding: 0; 
+}
+
+.main-footer{
+    background-color: white;
+    height: 400px;
+}
+.copy-right{
+    background-color: #f5efeff3;
+    height: 60px;
+}
+
+.row-cols-xl-5{
+    margin: 0;
+    padding: 0; 
+    /* background-color: #d51919f3; */
+    height: 200px;
+    margin-top: 15px;
+}
+.list-footer .ul li{
+    list-style: none;
+    text-decoration-line: none;
+}
+.list-footer .ul li a{
+    color: black;
+    text-decoration: none;
+}
+.list-footer .ul li a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: white;
+}
+.phone-number{
+    color: #cd1817;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* By Vinh */
+.ratings-link a {
+    text-decoration: none;
+    width: 20px;
+}
+.ratings-link i {
+    background-color: white;
+    
+}
+.title-content {
+    font-size: 25px;
+    font-weight: 500;
+}
+.no {
+   font-size: 12px;
+   opacity: 0.6;
+}
+.slide-show {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 10px;
+}
+.slide-show img {
+    object-fit:contain;
+    width: 580px;
+    height: 410px;
+}
+.main-slide {
+    display: flex;
+    animation: slip ease .7s;
+}
+
+.next,.pre  {
+    font-size: 20px;
+    opacity: 0.5;
+    font-weight: 300;
+    cursor: pointer;
+}
+.next i,.pre i {
+    border-radius: 50%;
+    padding: 10px 15px;
+    border: 1px solid darkgray;
+}
+.next {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+.pre {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+.dot {
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+   transform: translate();
+}
+.dot .dot-item {
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    opacity: 0.3;
+    background-color: darkgrey;
+    margin: 0 5px;
+   
+}
+.active_link {
+    background-color: red !important;
+}
+
+@keyframes slip {
+    from {
+       transform: translateX(0);
+    }
+    to{
+        transform: translateX(-500);
+    }
+}
+
+.product-info .product-info-item {
+    cursor: help;
+}
+.product-info {
+    padding: 15px 20px;
+    border-radius: 4px;
+    border: solid 1px #e9ecef;
+    background-color: #f8f9fa;
+    margin-bottom: 16p
+}
+.product-info a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.policy {
+    display: flex;
+    font-size: 14px;
+}
+.policy p {
+    margin-right: 10px;
+}
+.point {
+  font-size: 12px;
+  background: #fefae8;
+  width: fit-content;
+  border: 1px solid #fdf1ba;
+  padding: 2px 4px;
+  border-radius: 100px;
+}
+.promote {
+    background-color: #f8f9fa;
+    margin-bottom: 16px;
+    width: 585px;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 34px;
+}
+.promote-ratio label {
+    font-weight: 600;
+    margin:0px 5px;
+}
+.promote-ratio input[type="ratio"]{
+    color: #cd1817;
+}
+.promote_title {
+    width: 100%;
+    font-weight: 500;
+   
+}
+.promote_title,
+.promote-content
+{
+    border: 1px solid;
+    border-color: #e9ecef #e9ecef transparent #e9ecef;
+    border-top-color: rgb(233, 236, 239);
+    border-right-color: rgb(233, 236, 239);
+    border-bottom-color: transparent;
+    border-left-color: rgb(233, 236, 239);
+    padding:8px 15px;
+}
+.promote_add {
+    font-weight: 500;
+    background-color: #e9ecef;
+    width: 100px;
+    margin-left:-15px ;
+    margin-top: -5px;
+    padding: 5px 3px;
+}
+.purchase_checked_logo {
+    position: relative;
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+    border: solid 1px #dee2e6;
+    position: relative;
+
+}
+.purchase_checked_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.purchase_checked_checkbox {
+   position: absolute;
+   bottom: 0;
+}
+.purchase_r {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left:10px ;
+}
+.purchase_r a {
+    text-decoration: none;
+}
+.purchase {
+    margin-top: 10px;
+}
+
+.location a{
+    text-decoration: none;
+}
